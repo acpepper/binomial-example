@@ -3,7 +3,7 @@ export const binomial = (a: number, b: number, coeffs: Array<number>) => {
 };
 
 export const one = (a: number, b: number) => {
-  binomial(a, b, [-1, 2, 1, 1]);
+  binomial(a, b, [1, 2, 1, 1]);
 };
 
 export const two = (a: number, b: number) => {
